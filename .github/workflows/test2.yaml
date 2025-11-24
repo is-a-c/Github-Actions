@@ -31,7 +31,6 @@ jobs:
       - name: Install Pytest
         run: pip install pytest
       - name: Run Security Audit
-        # Modo Silencioso: No muestra el error exacto, solo qué prueba falló
         run: pytest --tb=no -q --show-capture=no
 
   congratulate:
